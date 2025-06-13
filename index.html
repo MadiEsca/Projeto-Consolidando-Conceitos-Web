@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MoX - Brain</title>
+</head>
+<body id="containerPrincipal">
+    <nav id="menu">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+    </nav>
+    <main>
+        <section id="secaoPrincipal">
+        </section>
+
+        <section id="secaoFormulario">
+            <form action="#" method="post" id="formulario">
+                    <!--Campo de texto-->
+                <div>
+                    <label for="nome">Digite seu nome</label>
+                    <input type="text" id="nome">
+                </div>
+            
+                <!--Área de texto-->
+                <div>
+                    <label for="msg">Digite sua mensagem</label>
+                    <textarea id="msg"></textarea>
+                </div>
+            
+                <!--Campo Numérico-->
+                <div>
+                    <label for="idade">Digite sua idade</label>
+                    <input type="number" id="idade" min="0">
+                </div>
+            
+                <!--Campo de Email-->
+                <div>
+                    <label  for="email">Digite seu Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+            
+                <!--Botão de enviar-->
+                <button type="button" disabled style="cursor: not-allowed">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
